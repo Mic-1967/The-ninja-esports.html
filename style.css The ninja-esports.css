@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif
+}     
+body{
+    background-color:aqua;
+    color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+  font-size: 6vw;
+}
+ 
+main{
+    width: 80;
+    margin: 0 auto;
+    background-color:brown;
+    padding: 2.4rem;
+    min-height: 800p;
+    line-height: 28vw;
+    font-size: 2vw;
+
+
+}
+            
+header, footer{
+  display:
+  flex;     /* enable
+  flexbox */
+  align-items:
+  center;     
+  center items */
+    justify-content:
+    center;  /* center 
+    horizontally */
+    gap:
+  1rem;                   */           
+  space between logo and title */
+    background-color:aquamarine
+    padding: 24px;
+
+}
+    
+  @media  (max-width: 250px){
+    header, footer{
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @media  (max-width: 1995px){
+    main{
+      width: 90%;
+      padding: 1.2rem;
+      font-size: 4vw;
+      line-height: 1.6;
+    }
+  }
